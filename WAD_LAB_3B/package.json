@@ -1,0 +1,15 @@
+{
+  "name": "wad_lab_3b",
+  "version": "1.0.0",
+  "description": "This is WAD LAB 3B",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neha Mundase",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0"
+  }
+}

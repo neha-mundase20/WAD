@@ -1,0 +1,9 @@
+# Use an official Nginx image from Docker Hub
+FROM nginx:alpine
+
+# Copy the static content into place
+COPY . /usr/share/nginx/html/test
+
+#docker ps
+#docker build -t html .
+#docker run -p 8080:80 -d html
